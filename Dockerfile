@@ -21,4 +21,4 @@ COPY prepare.sh /usr/bin/prepare.sh
 
 RUN mkdir /opt/app
 
-ENTRYPOINT ["tini", "-g", "--", "/usr/bin/prepare.sh"]
+EXPOSE 8786
